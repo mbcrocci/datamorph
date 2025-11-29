@@ -10,17 +10,17 @@ _description_
 
 ## License
 
-[MIT](./LICENSE) License © 2024-PRESENT [Maurizio Crocci](https://github.com/mbcrocci)
+[MIT](./LICENSE) License © 2024-PRESENT [Maurizio Crocci](https://github.com/mbcrocci/datamorph/releases)
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/data-kit?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/data-kit
-[npm-downloads-src]: https://img.shields.io/npm/dm/data-kit?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/data-kit
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/data-kit?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=data-kit
-[license-src]: https://img.shields.io/github/license/mbcrocci/datakit.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/mbcrocci/datakit/blob/main/LICENSE
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/data-kit
+[npm-version-src]: https://github.com/mbcrocci/datamorph/releases
+[npm-version-href]: https://github.com/mbcrocci/datamorph/releases
+[npm-downloads-src]: https://github.com/mbcrocci/datamorph/releases
+[npm-downloads-href]: https://github.com/mbcrocci/datamorph/releases
+[bundle-src]: https://github.com/mbcrocci/datamorph/releases
+[bundle-href]: https://github.com/mbcrocci/datamorph/releases
+[license-src]: https://github.com/mbcrocci/datamorph/releases
+[license-href]: https://github.com/mbcrocci/datamorph/releases
+[jsdocs-src]: https://github.com/mbcrocci/datamorph/releases
+[jsdocs-href]: https://github.com/mbcrocci/datamorph/releases
