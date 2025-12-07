@@ -27,6 +27,12 @@ describe('series element operations', () => {
   })
 })
 
+describe('series element metadata', () => {
+  it('sum series', () => {
+    expect(calculateSeriesElement('sum', [{ value: 1, metadata: { timestamp: 1111 } }] as DataElement[])).toStrictEqual({ type: 'series', values: [1], metadata: [{ timestamp: 1111 }] })
+  })
+})
+
 describe('series input operations', () => {
   it('calculates from series', () => {
     const input: InputData = {
