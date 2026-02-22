@@ -61,25 +61,34 @@ export function calculateSeriesElement(
 function calculateSeriesElementNone(data: DataElement[]): SeriesOutput {
   const values = data.map(d => d.value)
 
+  const metadata = []
+  for (const d of data) {
+    if (d.metadata)
+      metadata.push(d.metadata)
+  }
+
   return {
     type: 'series',
     values,
-    metadata: [], // TODO:
+    metadata,
   }
 }
 
 function calculateSeriesElementSum(data: DataElement[]): SeriesOutput {
   const values = []
+  const metadata = []
   let prev = 0
 
   for (const d of data) {
     prev += d.value
     values.push(prev)
+    if (d.metadata)
+      metadata.push(d.metadata)
   }
 
   return {
     type: 'series',
     values,
-    metadata: [], // TODO:
+    metadata,
   }
 }
